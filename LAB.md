@@ -1,4 +1,9 @@
-# CRE lab · you type this · Thursday 2026-08-20
+# CRE lab · you type this · Thursday 2026-08-20 · 10:30am
+
+**Also in this folder:**
+`2026-08-18-MACHINE-AND-SURFACE.md` — old-MacBook answer · web-vs-terminal split · **CLI is 10 versions behind, run `cre update` before Thursday**
+`2026-08-18-CRE-MARKET-AND-PICKAXE.md` — recovered market map (Grok linked it, never wrote it)
+
 
 **Who:** Matt, not the AI stack.  
 **Why:** Noel and Ash will ask how working with CRE is going. You need answers from your hands.  
@@ -29,7 +34,7 @@ That is the sentence you say Thursday.
 | # | Project | Where | Why CRE | You do |
 |---|---------|--------|---------|--------|
 | **1** | `hello-cron` | `~/cre-lab/hello-cron` | Cron trigger. You have compiled WASM and seen a simulate result. | Type the simulate. Read `main.ts` (12 lines). |
-| **2** | `official-water` | `~/cre-lab/official-water` | Two publishers: USGS Cameo stage + NASA POWER temp. Consensus on each. | Simulate. Open the two URLs in a browser. Change a site id. Simulate again. |
+| **2** | `official-water` | `~/cre-lab/official-water` | Two publishers: USGS Cameo stage + NASA POWER temp. Site name identical. Stage and observation unix time median. | Simulate. Open the two URLs. Change a site id. Simulate again. |
 | **3** | Position keeper | `~/cre-high-risk-yield-chaser/yield-chaser` | EVM read of Aave HF → signed report → `StrategyVault` caps. Textbook keeper. | Simulate. Read the cron handler and the vault `onReport` path. Call it a **position keeper**, not a yield chaser. |
 | **4** | `StrategyVault` | `~/cre-high-risk-yield-chaser/contracts/StrategyVault.sol` | The consumer. CRE is useless without a receiver that can say no. | Read: forwarder check, HF floor, pause, size cap. Be able to say those four words. |
 
