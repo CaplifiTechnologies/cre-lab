@@ -1,0 +1,6 @@
+{
+  "schedule": "0 */5 * * * *",
+  "usgsUrl": "https://waterservices.usgs.gov/nwis/iv/?sites=09095500&parameterCd=00065&format=json",
+  "nasaBaseUrl": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M&community=AG&longitude=-108.55&latitude=39.07&format=JSON",
+  "nasaLagDays": 8
+}

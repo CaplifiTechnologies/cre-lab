@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>CRE lab · type this</title>
+<style>
+  body { font: 16px/1.4 -apple-system, BlinkMacSystemFont, sans-serif; margin: 0; padding: 20px 24px; background: #f4f1ea; color: #111; }
+  h1 { font-size: 22px; margin: 0 0 8px; }
+  .meta { color: #444; margin: 0 0 16px; }
+  section { background: #fff; border: 1px solid #d9d1c3; border-radius: 10px; padding: 14px 16px; margin: 0 0 12px; }
+  h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .06em; color: #6b5b3e; margin: 0 0 8px; }
+  code, pre { font-family: ui-monospace, Menlo, monospace; font-size: 13px; }
+  pre { background: #1e1b16; color: #f4efe4; padding: 12px; border-radius: 8px; overflow: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: 15px; }
+  td, th { text-align: left; padding: 6px 8px; border-bottom: 1px solid #eee; vertical-align: top; }
+  .warn { background: #fff3cd; border: 1px solid #e0c36a; }
+</style>
+</head>
+<body>
+  <h1>CRE lab · you type this</h1>
+  <p class="meta">Thursday 20 Aug · Noel + Ash · Deploy Access still off · <code>~/cre-lab</code></p>
+  <section class="warn">
+    <h2>Moisture felt fake because it was</h2>
+    <p>DON nodes fetching <em>your</em> collector only prove they agree on one server. CRE earns it when origins differ, or when a vault can refuse a report. Say that Thursday.</p>
+  </section>
+  <section>
+    <h2>Know these four</h2>
+    <table>
+      <tr><th>1 hello-cron</th><td>You compiled WASM. Cron fires. Nothing to oracle.</td></tr>
+      <tr><th>2 official-water</th><td>USGS Cameo stage + NASA POWER temp. Two publishers.</td></tr>
+      <tr><th>3 position keeper</th><td><code>~/cre-high-risk-yield-chaser</code> — Aave HF → vault caps. Not “yield chaser.”</td></tr>
+      <tr><th>4 StrategyVault</th><td>Forwarder · HF floor · pause · size cap. Four words.</td></tr>
+    </table>
+  </section>
+  <section>
+    <h2>Type these</h2>
+<pre>export PATH="$HOME/.cre/bin:$PATH"
+cd ~/cre-lab
+cre whoami
+cre workflow simulate hello-cron --target staging-settings --non-interactive --trigger-index 0
+cre workflow simulate official-water --target staging-settings --non-interactive --trigger-index 0
+
+cd ~/cre-high-risk-yield-chaser
+cre workflow simulate yield-chaser --target staging-settings --non-interactive --trigger-index 0</pre>
+  </section>
+  <section>
+    <h2>Thursday line</h2>
+    <p>Three workflows I can simulate: hello cron, two-source official water, Sepolia position keeper into an owner-capped vault. Blocked on Deploy Access, not on the CLI. The soil collector is hardware. I am not asking you to wrap localhost in a DON.</p>
+  </section>
+</body>
+</html>
